@@ -1,13 +1,12 @@
-# Java Öğrenci Takip Sistemi
+# Java Student System
 
-Java 8 ile yazılmış basit bir öğrenci bilgi sistemidir.
+## Özellikler
+- Öğrenci Ekle / Listele / En Başarılıyı Göster
+- JDBC ile MySQL bağlantısı
+- Docker ile deploy
 
-## Özellikler:
-- Öğrenci Ekle
-- Öğrenci Listele
-- En Başarılı Öğrenciyi Göster
-- Koleksiyon (List), Stream API kullanımı
-- Basit sınıf yapısı (OOP)
-
-## Kullanım:
-Java IDE ile çalıştırabilir ya da terminalden compile edip run edebilirsiniz.
+## Çalıştırma
+```bash
+mvn clean package
+docker-compose up --build
+```
